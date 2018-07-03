@@ -1,0 +1,113 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+  height: 100%;
+}
+
+html,
+.container,
+.mainContainer,
+.footer,
+.header {
+  display: flex;
+}
+.container {
+  width: 100%;
+  flex-direction: column;
+}
+.header {
+  width: 100%;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.logo {
+  background-color: #ffff99;
+  flex-grow: 0;
+  flex-shrink: 1;
+  width: 6vw;
+  margin: auto 0;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 0.5em;
+  border-radius: 12px;
+}
+.name {
+  text-align-last: right;
+  padding-right: 5%;
+  margin: auto 0;
+  flex-grow: 2;
+  flex-shrink: 2;
+  font-family: "PT Mono", monospace;
+  letter-spacing: 0.2rem;
+  font-size: 2vw;
+}
+.mainContainer {
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100%;
+}
+.about {
+  background-image: url(img.jpeg); /*Photo by Jakub Novacek from Pexels*/
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  line-height: 1;
+  flex-direction: column;
+}
+.about p {
+  color: #a0d6fa;
+  margin: 0;
+  font-family: "PT Mono", monospace;
+  font-size: 2vw;
+}
+.about span {
+  font-family: "Monoton", cursive;
+  font-size: 4vw;
+  color: #a0d6fa;
+  margin: 0;
+}
+
+.projects {
+  color: #ffffff;
+  text-align: center;
+  font-family: "PT Mono", monospace;
+  font-size: 1.6vw;
+}
+
+.featuredWork {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.featuredWork img {
+  width: 30vw;
+  border-style: ridge;
+  border-color: #ffffff;
+}
+
+.footer {
+  justify-content: center;
+  background-color: #a0d6fa;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.footer a {
+  width: 2vw;
+  padding: 1rem;
+}
+
+@media all and (max-width: 550px) {
+  .featuredWork {
+    flex-direction: column;
+  }
+  .featuredWork img {
+    width: 60vw;
+  }
+  .footer a {
+    width: 4vw;
+  }
+}
