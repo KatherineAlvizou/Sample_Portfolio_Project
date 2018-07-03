@@ -4,7 +4,6 @@ body {
   margin: 0;
   height: 100%;
 }
-
 html,
 .container,
 .mainContainer,
@@ -69,27 +68,23 @@ html,
   color: #a0d6fa;
   margin: 0;
 }
-
 .projects {
   color: #ffffff;
   text-align: center;
   font-family: "PT Mono", monospace;
   font-size: 1.6vw;
 }
-
 .featuredWork {
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 100%;
 }
-
 .featuredWork img {
   width: 30vw;
   border-style: ridge;
   border-color: #ffffff;
 }
-
 .footer {
   justify-content: center;
   background-color: #a0d6fa;
