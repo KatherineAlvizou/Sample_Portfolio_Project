@@ -1,4 +1,4 @@
-**MY PORTFOLIO PROJECT**
+**PORTFOLIO PROJECT**
 
 _**Overview**_: This project is part of the Google-Udacity Nanodegree program, Frontend development track.
           I was provided with a design mockup as a PDF-file and I had to replicate that design in HTML and CSS. 
@@ -56,5 +56,20 @@ Files are organized with a directory structure that separates files based on fun
 
 **4. Code Quality**
 
-The code must follow Udacity's Frontend Nanodegree style guide concerning HTML and CSS Formatting and style rules as well as General meta rules and General Formatting rules.You can find the guide here: http://udacity.github.io/frontend-nanodegree-styleguide/
+The code must follow Udacity's Frontend Nanodegree style guide concerning HTML and CSS Formatting and style rules as well as General meta rules and General Formatting rules.Find the guide here: http://udacity.github.io/frontend-nanodegree-styleguide/
+
+**5. Technologies used**
+
+ - HTML5
+ - CSS FLEXBOX
+
+ **6. Recent Improvements**
+
+ - Added HTML5 Semantic tags to make the page more understandable in terms of accessibility.
+
+ - Changed `font-size` of certain elements to improve readability on smaller displays.
+
+   
+   This project was created by **Aikaterini Alvizou** for the Google Udacity Nanodegree program FEND track.
+
 
